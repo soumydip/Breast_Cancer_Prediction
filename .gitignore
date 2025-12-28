@@ -1,0 +1,50 @@
+# ignore file
+# This is a .gitignore file to specify files and directories that should be ignored by Git version control.
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# Ignore virtual environment directories
+venv/
+env/
+# Ignore IDE specific files
+.vscode/
+.idea/
+# Ignore data files
+data/
+*.csv
+*.xlsx
+# Ignore model files
+models/
+*.h5
+
+# Ignore log files
+logs/
+
+*.log
+# Ignore system files
+.DS_Store
+Thumbs.db
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Ignore coverage reports
+htmlcov/
+.coverage
+# Ignore test output
+test_output/
+
+# Ignore temporary files
+*.tmp
+*.swp
+# Ignore configuration files
+config/
+*.ini
+*.cfg
+
+# Ignore other unwanted files
+*.bak
+*.old
+*.orig
+*.rej
